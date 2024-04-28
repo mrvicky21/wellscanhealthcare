@@ -1,12 +1,12 @@
 {
-  "homepage": "https://mrvicky21.github.io",
+  "homepage": "https://mrvicky21.github.io/wellscanhealthcare/",
   "name": "medicalrecord",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "test": "mocha --timeout 5000",
     "dev": "next dev"
   },
