@@ -5,9 +5,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-    "test": "mocha --timeout 5000",
+    "deploy": "gh-pages -b main -d build",
+    "build": "react-scripts build",
     "dev": "next dev"
   },
   "author": "",
