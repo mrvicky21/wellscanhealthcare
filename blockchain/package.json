@@ -9,7 +9,7 @@
     "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp src/index.js build/index.js",
     "dev": "next dev"
   },
   "author": "",
